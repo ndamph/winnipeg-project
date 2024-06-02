@@ -56,6 +56,13 @@ h5 {
   margin: 0;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
 .header-button {
   background: white;
   color: black;
@@ -79,16 +86,13 @@ h5 {
 }
 
 .box-2 p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   width: 100%;
-  font-size: 16px;
   line-height: 1.5;
 }
 
 .breweries {
   padding: 100px;
+  background: rgb(234, 231, 231);
 }
 
 .breweries-col-3 {
