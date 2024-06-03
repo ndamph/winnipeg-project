@@ -106,7 +106,13 @@ a {
 .breweries-col-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-gap: 50px;
+}
+
+.brewery {
+  background: white;
+  padding: 20px;
+  height: 100%;
 }
 
 .brewery-content-1 {
@@ -122,6 +128,9 @@ img {
   border: none;
 }
 
+.brewery-content-2 p {
+  margin-bottom: 30px;
+}
 .brewery-links {
   text-decoration: none;
   background: white;
@@ -129,6 +138,9 @@ img {
   border: 1px solid black;
   color: black;
   border-radius: 3px;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
