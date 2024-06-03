@@ -226,5 +226,11 @@ img {
   }
   .winnipeg-footer {
     max-height: 400px;
+    padding: 100px 50px;
+    grid-gap: 25px;
+  }
+  .winnipeg-footer li,
+  .winnipeg-footer p {
+    font-size: 10px;
   }
 }
