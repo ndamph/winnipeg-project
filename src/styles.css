@@ -218,6 +218,9 @@ img {
     grid-template-columns: 1fr;
     padding: 50px;
   }
+  .photo-gallery {
+    padding: 100px 50px;
+  }
   .gallery {
     grid-template-columns: 1fr;
   }
