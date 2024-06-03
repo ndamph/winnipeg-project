@@ -69,6 +69,10 @@ a {
   font-style: normal;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .header-button {
   background: white;
   color: black;
