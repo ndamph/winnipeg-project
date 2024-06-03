@@ -228,6 +228,7 @@ img {
     max-height: 400px;
     padding: 100px 50px;
     grid-gap: 25px;
+    grid-template-columns: 1fr;
   }
   .winnipeg-footer li,
   .winnipeg-footer p {
