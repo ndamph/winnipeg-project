@@ -143,6 +143,23 @@ img {
   text-align: center;
 }
 
+.photo-gallery {
+  padding: 100px;
+}
+
+.photo-gallery h3,
+.photo-gallery h4 {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  height: 100%;
+  padding: 20px;
+}
+
 .winnipeg-footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -196,5 +213,8 @@ img {
   .breweries-col-3 {
     grid-template-columns: 1fr;
     padding: 50px;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
   }
 }
