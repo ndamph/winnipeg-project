@@ -69,15 +69,6 @@ a {
   font-style: normal;
 }
 
-footer {
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/winnipeg-footer.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px;
-}
-
 .header-button {
   background: white;
   color: black;
@@ -150,6 +141,37 @@ img {
   margin-top: 15px;
   display: block;
   text-align: center;
+}
+
+.winnipeg-footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/winnipeg-footer.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
+}
+
+.winnipeg-footer a {
+  color: white;
+}
+
+.winnipeg-footer h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.winnipeg-footer li,
+.winnipeg-footer p {
+  font-size: 12px;
+}
+
+.winnipeg-footer ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 @media (max-width: 900px) {
