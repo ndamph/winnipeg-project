@@ -69,6 +69,15 @@ a {
   font-style: normal;
 }
 
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/winnipeg-footer.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
 .header-button {
   background: white;
   color: black;
