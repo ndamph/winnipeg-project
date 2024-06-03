@@ -217,4 +217,7 @@ img {
   .gallery {
     grid-template-columns: 1fr;
   }
+  .winnipeg-footer {
+    max-height: 400px;
+  }
 }
